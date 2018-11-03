@@ -25,7 +25,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-travel-api-service",
+    "start": "egg-scripts start --port=80 --title=travel-api-service",
     "stop": "egg-scripts stop --title=egg-server-travel-api-service",
     "dev": "egg-bin dev --port=7602",
     "debug": "egg-bin debug",
