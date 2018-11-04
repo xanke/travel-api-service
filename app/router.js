@@ -9,4 +9,5 @@ module.exports = app => {
 
   router.get('/flows/:code/day/:date', controller.flow.date);
   router.get('/flows/:code/latest', controller.flow.latest);
+  router.get('/flows/:code/today', controller.flow.today);
 };
